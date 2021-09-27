@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="jumbotron text-center bg-dark"><h1>CALCULAR IMC</h1></div>
+    </header>
+
+    <div class="container">
+        <div>
+            <label>Nome:</label><br>
+
+            <div class="input">
+                <input id="nome" type="text" class="form-control" name="nome" required="required"></input><br>
+            </div>
+
+        </div><br>
+
+            <label>Peso(kg):</label><br>
+            <div class="input">
+                <input id="peso" type="number" class="form-control" name="peso" required="required"></input><br>
+            </div>
+
+        <div><br>
+
+            <label>Altura(m):</label><br>
+            <div class="input">
+                <input id="altura" type="number" class="form-control" name="altura" required="required"></input><br>
+            </div>
+
+        </div>
+
+        <div class="button" style="text-align: center;">
+            <button id="calcular" class="btn btn-dark btn-lg">Calcular</button>
+        </div>
+
+    </div><br>
+    <div class="container" id="resultado">
+    </div>
+    <footer>
+        <p>&copy; Cotemig</p>
+    </footer>
+
+    <script src="script.js">
+
+</script>
+</body>
+</html>

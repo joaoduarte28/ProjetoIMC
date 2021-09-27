@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+    font: normal 15pt Arial;
+    height: 100vh;
+    font-size: 16pt;
+    color: bg-dark;
+}
+
+header {
+    color: white;
+    font-size: 20pt;
+}
+
+footer {
+    font-size: italic;
+    text-align: center;
+}
+
+.container {
+    padding: 10px;
+    color: black;
+}
+
+label {
+    color: black;
+}
+
